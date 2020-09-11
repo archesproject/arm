@@ -1,0 +1,14 @@
+arm/media/packages
+arm/logs/*.log
+arm/uploadedfiles
+arm/cantaloupe/*
+arm/ontologies/*.xml
+arches.log
+*.sublime*
+arm/settings_local.py
+.DS_Store
+*.djcache
+arm/node_modules
+.vscode/
+Procfile
+*.pyc
