@@ -10,14 +10,24 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": null,
+                    "description": {
+                        "en": null
+                    },
                     "graph_id": "01cec283-42c1-11ea-9f58-024e0d439fdb",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Minimum Duration",
+                    "name": {
+                        "en": "Minimum Duration"
+                    },
                     "nodegroup_id": "cda62420-42c3-11ea-9f58-024e0d439fdb",
                     "sortorder": null,
                     "visible": true
@@ -29,14 +39,24 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": "",
+                    "description": {
+                        "en": ""
+                    },
                     "graph_id": "01cec283-42c1-11ea-9f58-024e0d439fdb",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Production branch (ARM WG)",
+                    "name": {
+                        "en": "Production branch (ARM WG)"
+                    },
                     "nodegroup_id": "01cec282-42c1-11ea-9f58-024e0d439fdb",
                     "sortorder": null,
                     "visible": true
@@ -48,14 +68,24 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": null,
+                    "description": {
+                        "en": null
+                    },
                     "graph_id": "01cec283-42c1-11ea-9f58-024e0d439fdb",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Timespan",
+                    "name": {
+                        "en": "Timespan"
+                    },
                     "nodegroup_id": "fc2d600c-42c2-11ea-9f58-024e0d439fdb",
                     "sortorder": null,
                     "visible": true
@@ -67,14 +97,24 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": null,
+                    "description": {
+                        "en": null
+                    },
                     "graph_id": "01cec283-42c1-11ea-9f58-024e0d439fdb",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Identifier",
+                    "name": {
+                        "en": "Identifier"
+                    },
                     "nodegroup_id": "66c69d74-42c4-11ea-9f58-024e0d439fdb",
                     "sortorder": null,
                     "visible": true
@@ -86,14 +126,24 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": null,
+                    "description": {
+                        "en": null
+                    },
                     "graph_id": "01cec283-42c1-11ea-9f58-024e0d439fdb",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Maximum Duration",
+                    "name": {
+                        "en": "Maximum Duration"
+                    },
                     "nodegroup_id": "17134b03-42c3-11ea-9f58-024e0d439fdb",
                     "sortorder": null,
                     "visible": true
@@ -105,14 +155,24 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": null,
+                    "description": {
+                        "en": null
+                    },
                     "graph_id": "01cec283-42c1-11ea-9f58-024e0d439fdb",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Description",
+                    "name": {
+                        "en": "Description"
+                    },
                     "nodegroup_id": "f6764da8-42d7-11ea-9f58-024e0d439fdb",
                     "sortorder": null,
                     "visible": true
@@ -123,7 +183,9 @@
             "config": {},
             "deploymentdate": null,
             "deploymentfile": null,
-            "description": "",
+            "description": {
+                "en": ""
+            },
             "edges": [
                 {
                     "description": null,
@@ -448,7 +510,9 @@
             "isactive": true,
             "isresource": false,
             "jsonldcontext": null,
-            "name": "Production branch (ARM WG)",
+            "name": {
+                "en": "Production branch (ARM WG)"
+            },
             "nodegroups": [
                 {
                     "cardinality": "1",
@@ -1197,7 +1261,9 @@
                 "sortorder": 0
             },
             "slug": null,
-            "subtitle": "",
+            "subtitle": {
+                "en": ""
+            },
             "template_id": "50000000-0000-0000-0000-000000000001",
             "version": ""
         }

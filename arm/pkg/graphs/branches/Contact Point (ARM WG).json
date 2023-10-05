@@ -10,14 +10,24 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": "",
+                    "description": {
+                        "en": ""
+                    },
                     "graph_id": "cbd75bd3-439a-11ea-9f58-024e0d439fdb",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Contact Point (ARM WG)",
+                    "name": {
+                        "en": "Contact Point (ARM WG)"
+                    },
                     "nodegroup_id": "cbd75bd2-439a-11ea-9f58-024e0d439fdb",
                     "sortorder": null,
                     "visible": true
@@ -28,7 +38,9 @@
             "config": {},
             "deploymentdate": null,
             "deploymentfile": null,
-            "description": "",
+            "description": {
+                "en": ""
+            },
             "edges": [
                 {
                     "description": null,
@@ -74,7 +86,9 @@
             "isactive": true,
             "isresource": false,
             "jsonldcontext": null,
-            "name": "Contact Point (ARM WG)",
+            "name": {
+                "en": "Contact Point (ARM WG)"
+            },
             "nodegroups": [
                 {
                     "cardinality": "1",
@@ -202,7 +216,9 @@
                 "sortorder": 0
             },
             "slug": null,
-            "subtitle": "",
+            "subtitle": {
+                "en": ""
+            },
             "template_id": "50000000-0000-0000-0000-000000000001",
             "version": ""
         }

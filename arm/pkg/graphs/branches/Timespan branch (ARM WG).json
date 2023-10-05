@@ -10,14 +10,24 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": "",
+                    "description": {
+                        "en": ""
+                    },
                     "graph_id": "d54439a9-42da-11ea-9f58-024e0d439fdb",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Timespan branch (ARM WG)",
+                    "name": {
+                        "en": "Timespan branch (ARM WG)"
+                    },
                     "nodegroup_id": "d54439a8-42da-11ea-9f58-024e0d439fdb",
                     "sortorder": null,
                     "visible": true
@@ -29,14 +39,24 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": null,
+                    "description": {
+                        "en": null
+                    },
                     "graph_id": "d54439a9-42da-11ea-9f58-024e0d439fdb",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Minimum Duration",
+                    "name": {
+                        "en": "Minimum Duration"
+                    },
                     "nodegroup_id": "fbbb6e76-42da-11ea-9f58-024e0d439fdb",
                     "sortorder": null,
                     "visible": true
@@ -48,14 +68,24 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": null,
+                    "description": {
+                        "en": null
+                    },
                     "graph_id": "d54439a9-42da-11ea-9f58-024e0d439fdb",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Maximum Duration",
+                    "name": {
+                        "en": "Maximum Duration"
+                    },
                     "nodegroup_id": "e13ba1c8-42db-11ea-9f58-024e0d439fdb",
                     "sortorder": null,
                     "visible": true
@@ -66,7 +96,9 @@
             "config": {},
             "deploymentdate": null,
             "deploymentfile": null,
-            "description": "",
+            "description": {
+                "en": ""
+            },
             "edges": [
                 {
                     "description": null,
@@ -202,7 +234,9 @@
             "isactive": true,
             "isresource": false,
             "jsonldcontext": null,
-            "name": "Timespan branch (ARM WG)",
+            "name": {
+                "en": "Timespan branch (ARM WG)"
+            },
             "nodegroups": [
                 {
                     "cardinality": "1",
@@ -522,7 +556,9 @@
                 "sortorder": 0
             },
             "slug": null,
-            "subtitle": "",
+            "subtitle": {
+                "en": ""
+            },
             "template_id": "50000000-0000-0000-0000-000000000001",
             "version": ""
         }
