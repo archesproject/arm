@@ -10,14 +10,24 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": "",
+                    "description": {
+                        "en": ""
+                    },
                     "graph_id": "9c31c665-42ba-11ea-9f58-024e0d439fdb",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Description-Statement branch (ARM WG)",
+                    "name": {
+                        "en": "Description-Statement branch (ARM WG)"
+                    },
                     "nodegroup_id": "9c31c664-42ba-11ea-9f58-024e0d439fdb",
                     "sortorder": null,
                     "visible": true
@@ -28,26 +38,10 @@
             "config": {},
             "deploymentdate": null,
             "deploymentfile": null,
-            "description": "",
+            "description": {
+                "en": ""
+            },
             "edges": [
-                {
-                    "description": null,
-                    "domainnode_id": "9c31c664-42ba-11ea-9f58-024e0d439fdb",
-                    "edgeid": "32ff6877-42bb-11ea-9f58-024e0d439fdb",
-                    "graph_id": "9c31c665-42ba-11ea-9f58-024e0d439fdb",
-                    "name": null,
-                    "ontologyproperty": "http://www.w3.org/2000/01/rdf-schema#label",
-                    "rangenode_id": "32ff6876-42bb-11ea-9f58-024e0d439fdb"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "9c31c664-42ba-11ea-9f58-024e0d439fdb",
-                    "edgeid": "41dc21c3-42bb-11ea-9f58-024e0d439fdb",
-                    "graph_id": "9c31c665-42ba-11ea-9f58-024e0d439fdb",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
-                    "rangenode_id": "41dc21c2-42bb-11ea-9f58-024e0d439fdb"
-                },
                 {
                     "description": null,
                     "domainnode_id": "9c31c664-42ba-11ea-9f58-024e0d439fdb",
@@ -65,16 +59,35 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "rangenode_id": "202f1a20-42bb-11ea-9f58-024e0d439fdb"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "9c31c664-42ba-11ea-9f58-024e0d439fdb",
+                    "edgeid": "32ff6877-42bb-11ea-9f58-024e0d439fdb",
+                    "graph_id": "9c31c665-42ba-11ea-9f58-024e0d439fdb",
+                    "name": null,
+                    "ontologyproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "rangenode_id": "32ff6876-42bb-11ea-9f58-024e0d439fdb"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "9c31c664-42ba-11ea-9f58-024e0d439fdb",
+                    "edgeid": "41dc21c3-42bb-11ea-9f58-024e0d439fdb",
+                    "graph_id": "9c31c665-42ba-11ea-9f58-024e0d439fdb",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
+                    "rangenode_id": "41dc21c2-42bb-11ea-9f58-024e0d439fdb"
                 }
             ],
             "functions_x_graphs": [],
             "graphid": "9c31c665-42ba-11ea-9f58-024e0d439fdb",
             "iconclass": "",
             "is_editable": true,
-            "isactive": true,
             "isresource": false,
             "jsonldcontext": null,
-            "name": "Description-Statement branch (ARM WG)",
+            "name": {
+                "en": "Description-Statement branch (ARM WG)"
+            },
             "nodegroups": [
                 {
                     "cardinality": "1",
@@ -85,42 +98,7 @@
             ],
             "nodes": [
                 {
-                    "config": null,
-                    "datatype": "string",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "9c31c665-42ba-11ea-9f58-024e0d439fdb",
-                    "is_collector": false,
-                    "isrequired": true,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "content",
-                    "nodegroup_id": "9c31c664-42ba-11ea-9f58-024e0d439fdb",
-                    "nodeid": "41dc21c2-42bb-11ea-9f58-024e0d439fdb",
-                    "ontologyclass": "http://www.w3.org/2001/XMLSchema#string",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": "",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "9c31c665-42ba-11ea-9f58-024e0d439fdb",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": true,
-                    "name": "Description-Statement branch (ARM WG)",
-                    "nodegroup_id": "9c31c664-42ba-11ea-9f58-024e0d439fdb",
-                    "nodeid": "9c31c664-42ba-11ea-9f58-024e0d439fdb",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
-                    "parentproperty": "",
-                    "sortorder": 0
-                },
-                {
+                    "alias": "language",
                     "config": {
                         "rdmCollection": "f7fc4f6d-fd46-4881-846f-4a08bc1a3fef"
                     },
@@ -129,6 +107,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "9c31c665-42ba-11ea-9f58-024e0d439fdb",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -138,9 +117,11 @@
                     "nodeid": "0aa94fae-42bb-11ea-9f58-024e0d439fdb",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P72_has_language",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
+                    "alias": "classification",
                     "config": {
                         "rdmCollection": "1adae7ea-4884-432f-af44-c9aea3a48a3d"
                     },
@@ -149,6 +130,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "9c31c665-42ba-11ea-9f58-024e0d439fdb",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -158,15 +140,18 @@
                     "nodeid": "202f1a20-42bb-11ea-9f58-024e0d439fdb",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 1
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
-                    "config": null,
+                    "alias": "label",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "9c31c665-42ba-11ea-9f58-024e0d439fdb",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": false,
@@ -176,19 +161,70 @@
                     "nodeid": "32ff6876-42bb-11ea-9f58-024e0d439fdb",
                     "ontologyclass": "http://www.w3.org/2001/XMLSchema#string",
                     "parentproperty": "http://www.w3.org/2000/01/rdf-schema#label",
-                    "sortorder": 2
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "content",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "9c31c665-42ba-11ea-9f58-024e0d439fdb",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": true,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "content",
+                    "nodegroup_id": "9c31c664-42ba-11ea-9f58-024e0d439fdb",
+                    "nodeid": "41dc21c2-42bb-11ea-9f58-024e0d439fdb",
+                    "ontologyclass": "http://www.w3.org/2001/XMLSchema#string",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "description_statement_branch_arm_wg_",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "9c31c665-42ba-11ea-9f58-024e0d439fdb",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Description-Statement branch (ARM WG)",
+                    "nodegroup_id": "9c31c664-42ba-11ea-9f58-024e0d439fdb",
+                    "nodeid": "9c31c664-42ba-11ea-9f58-024e0d439fdb",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 }
             ],
             "ontology_id": "0b1f5462-faa7-11e9-8f09-3af9d3b32b71",
+            "publication": {
+                "graph_id": "9c31c665-42ba-11ea-9f58-024e0d439fdb",
+                "notes": null,
+                "publicationid": "8e9d52ae-c09a-11ee-bb60-0242ac170005",
+                "published_time": "2024-02-01T00:40:54.523"
+            },
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {
-                "config": null,
+                "alias": "description_statement_branch_arm_wg_",
+                "config": {},
                 "datatype": "semantic",
                 "description": "",
                 "exportable": false,
                 "fieldname": null,
                 "graph_id": "9c31c665-42ba-11ea-9f58-024e0d439fdb",
+                "hascustomalias": false,
                 "is_collector": true,
                 "isrequired": false,
                 "issearchable": true,
@@ -197,18 +233,15 @@
                 "nodegroup_id": "9c31c664-42ba-11ea-9f58-024e0d439fdb",
                 "nodeid": "9c31c664-42ba-11ea-9f58-024e0d439fdb",
                 "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
-                "sortorder": 0
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
             },
             "slug": null,
-            "subtitle": "",
+            "subtitle": {
+                "en": ""
+            },
             "template_id": "50000000-0000-0000-0000-000000000001",
             "version": ""
         }
-    ],
-    "metadata": {
-        "db": "PostgreSQL 12.1 (Ubuntu 12.1-1.pgdg18.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0, 64-bit",
-        "git hash": "eea31b4f1 2020-01-20 12:37:08 -0800",
-        "os": "Linux",
-        "os version": "4.15.0-1051-aws"
-    }
+    ]
 }
