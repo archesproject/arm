@@ -10,14 +10,24 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": "",
+                    "description": {
+                        "en": ""
+                    },
                     "graph_id": "56022d4f-42bc-11ea-9f58-024e0d439fdb",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Name branch (ARM WG)",
+                    "name": {
+                        "en": "Name branch (ARM WG)"
+                    },
                     "nodegroup_id": "56022d4e-42bc-11ea-9f58-024e0d439fdb",
                     "sortorder": null,
                     "visible": true
@@ -28,7 +38,9 @@
             "config": {},
             "deploymentdate": null,
             "deploymentfile": null,
-            "description": "",
+            "description": {
+                "en": ""
+            },
             "edges": [
                 {
                     "description": null,
@@ -71,10 +83,11 @@
             "graphid": "56022d4f-42bc-11ea-9f58-024e0d439fdb",
             "iconclass": "",
             "is_editable": true,
-            "isactive": true,
             "isresource": false,
             "jsonldcontext": null,
-            "name": "Name branch (ARM WG)",
+            "name": {
+                "en": "Name branch (ARM WG)"
+            },
             "nodegroups": [
                 {
                     "cardinality": "1",
@@ -85,50 +98,14 @@
             ],
             "nodes": [
                 {
-                    "config": {
-                        "rdmCollection": null
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "56022d4f-42bc-11ea-9f58-024e0d439fdb",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "language",
-                    "nodegroup_id": "56022d4e-42bc-11ea-9f58-024e0d439fdb",
-                    "nodeid": "a228e222-42c0-11ea-9f58-024e0d439fdb",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P72_has_language",
-                    "sortorder": 1
-                },
-                {
-                    "config": null,
-                    "datatype": "string",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "56022d4f-42bc-11ea-9f58-024e0d439fdb",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": false,
-                    "istopnode": false,
-                    "name": "label",
-                    "nodegroup_id": "56022d4e-42bc-11ea-9f58-024e0d439fdb",
-                    "nodeid": "b18e97b6-42c0-11ea-9f58-024e0d439fdb",
-                    "ontologyclass": "http://www.w3.org/2001/XMLSchema#string",
-                    "parentproperty": "http://www.w3.org/2000/01/rdf-schema#label",
-                    "sortorder": 2
-                },
-                {
-                    "config": null,
+                    "alias": "name_branch_arm_wg_",
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56022d4f-42bc-11ea-9f58-024e0d439fdb",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -138,15 +115,18 @@
                     "nodeid": "56022d4e-42bc-11ea-9f58-024e0d439fdb",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
                     "parentproperty": "",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
-                    "config": null,
+                    "alias": "content",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56022d4f-42bc-11ea-9f58-024e0d439fdb",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": true,
                     "issearchable": true,
@@ -156,9 +136,55 @@
                     "nodeid": "896af7a2-42c0-11ea-9f58-024e0d439fdb",
                     "ontologyclass": "http://www.w3.org/2001/XMLSchema#string",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
+                    "alias": "language",
+                    "config": {
+                        "rdmCollection": null
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "56022d4f-42bc-11ea-9f58-024e0d439fdb",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "language",
+                    "nodegroup_id": "56022d4e-42bc-11ea-9f58-024e0d439fdb",
+                    "nodeid": "a228e222-42c0-11ea-9f58-024e0d439fdb",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P72_has_language",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "label",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "56022d4f-42bc-11ea-9f58-024e0d439fdb",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "label",
+                    "nodegroup_id": "56022d4e-42bc-11ea-9f58-024e0d439fdb",
+                    "nodeid": "b18e97b6-42c0-11ea-9f58-024e0d439fdb",
+                    "ontologyclass": "http://www.w3.org/2001/XMLSchema#string",
+                    "parentproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "classification",
                     "config": {
                         "rdmCollection": null
                     },
@@ -167,6 +193,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56022d4f-42bc-11ea-9f58-024e0d439fdb",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -176,19 +203,28 @@
                     "nodeid": "c299db06-42c0-11ea-9f58-024e0d439fdb",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 }
             ],
             "ontology_id": "0b1f5462-faa7-11e9-8f09-3af9d3b32b71",
+            "publication": {
+                "graph_id": "56022d4f-42bc-11ea-9f58-024e0d439fdb",
+                "notes": null,
+                "publicationid": "8e87ff08-c09a-11ee-bb60-0242ac170005",
+                "published_time": "2024-02-01T00:40:54.383"
+            },
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {
-                "config": null,
+                "alias": "name_branch_arm_wg_",
+                "config": {},
                 "datatype": "semantic",
                 "description": "",
                 "exportable": false,
                 "fieldname": null,
                 "graph_id": "56022d4f-42bc-11ea-9f58-024e0d439fdb",
+                "hascustomalias": false,
                 "is_collector": true,
                 "isrequired": false,
                 "issearchable": true,
@@ -197,18 +233,15 @@
                 "nodegroup_id": "56022d4e-42bc-11ea-9f58-024e0d439fdb",
                 "nodeid": "56022d4e-42bc-11ea-9f58-024e0d439fdb",
                 "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
-                "sortorder": 0
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
             },
             "slug": null,
-            "subtitle": "",
+            "subtitle": {
+                "en": ""
+            },
             "template_id": "50000000-0000-0000-0000-000000000001",
             "version": ""
         }
-    ],
-    "metadata": {
-        "db": "PostgreSQL 12.1 (Ubuntu 12.1-1.pgdg18.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0, 64-bit",
-        "git hash": "eea31b4f1 2020-01-20 12:37:08 -0800",
-        "os": "Linux",
-        "os version": "4.15.0-1051-aws"
-    }
+    ]
 }
